@@ -140,6 +140,29 @@ class Program
     }
 }*/
 
-/*Задание 5
+/*Задание 5 - РЕШЕНИЕ ОТ ИИ, я не понял)))
 Создайте двумерный массив. Выведите на консоль диагонали массива.*/
-    
+    /*static void Main(string[] args)
+    {
+        int[,] matrix =
+        {
+            { 1, 2, 3 },
+            { 4, 5, 6 },
+            { 7, 8, 9 }
+        };
+
+        int n = matrix.GetLength(0);
+
+        Console.WriteLine("Главная диагональ:");
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write(matrix[i, i] + " ");
+        }
+
+        Console.WriteLine("\nПобочная диагональ:");
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write(matrix[i, n - 1 - i] + " ");
+        }
+    }
+}*/

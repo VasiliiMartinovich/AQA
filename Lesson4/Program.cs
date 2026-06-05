@@ -5,6 +5,15 @@ namespace Lesson4;
 class Program
 {
     static void Main(string[] args)
+    {
+        int[] nums = { 12, 44, 44, 34 };
+        Console.WriteLine(nums[0]);
+        
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        Console.Write(numbers[i] + " ");
+    }
+    
         /*{
             int[] nums = { 12, 44, 44, 34 };
         }*/
@@ -44,31 +53,33 @@ class Program
             {
                 Console.WriteLine(numbers[i]);
             }
-        }*/
+        }
+    }*/
 
-        /*{
-            Random random = new Random();
+    /*{
+        Random random = new Random();
 
-            int[] numbers = new int[500];
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                numbers[i] = random.Next();
-            }
-        }*/
-        /*int n = arr.Length;
-
-            for (int i = 0; i < n - 1; i++)
+        int[] numbers = new int[500];
+        for (int i = 0; i < numbers.Length; i++)
         {
-            for (int j = 0; j < n - i - 1; j++)
-            {
-                if (arr[j] > arr[j + 1])
-                {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                }
-            }
-        }#1#*/
+            numbers[i] = random.Next();
+        }
+    }
+}*/
+/*int n = arr.Length;
+
+    for (int i = 0; i < n - 1; i++)
+{
+    for (int j = 0; j < n - i - 1; j++)
+    {
+        if (arr[j] > arr[j + 1])
+        {
+            int temp = arr[j];
+            arr[j] = arr[j + 1];
+            arr[j + 1] = temp;
+        }
+    }
+}#1#*/
         /*{
             unsafe
             {
@@ -100,8 +111,8 @@ class Program
         var array = new[] { 12, 54, 4, 43 };
         Console.WriteLine(string.Join(", ", array[..2])); //вывод первых 2ух элементов массива
     }*/
-        {
+        /*{
         var array = new[] { 12, 54, 4, 43 };
         Console.WriteLine(string.Join(", ", array[1..^1])); //вывод без первого и последнего элементов массива
     }
-}
+}*/
