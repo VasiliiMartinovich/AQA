@@ -143,7 +143,7 @@
     //     return a + b;
     //   }
     // }
-    class Program
+    /*class Program
     {
         static void Main(string[] args)
         {
@@ -186,6 +186,11 @@
             return $"Powers: {_powers}, Hunger: {_hunger}";
         }
 
+    }*/
+    static void Say(int id, string message = "default message")
+    {
+        Console.WriteLine(id + ": ");
+        Console.WriteLine(message);
     }
 }
     
